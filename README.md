@@ -1,1 +1,1 @@
-learning Vue JS 3
+learn Vue JS 3
