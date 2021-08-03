@@ -5,17 +5,26 @@ const app = Vue.createApp({
       title: "Harry Potter",
       author: "J.K Rowling",
       age: 45,
+      x: 0,
+      y: 0,
     };
   },
   methods: {
-    changeTitle(value) {
-      this.title = value;
-      this.age = 0;
-      this.author = "Idham Aziz Marlin";
-    },
-
     toggleShowBooks() {
       this.showBooks = !this.showBooks;
+    },
+    handleEvent(e, data) {
+      console.info(e, e.type);
+      if (data) {
+        console.info(data);
+      }
+    },
+    doubleClick() {
+      alert("Clicked");
+    },
+    handleMouseMove(e) {
+      this.x = e.offsetX;
+      this.y = e.offsetY;
     },
   },
 });

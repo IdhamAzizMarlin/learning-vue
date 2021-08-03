@@ -8,43 +8,26 @@
     <title>Learning Vue</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <style>
-        .box {
-            padding: 100px 0;
-            width: 400px;
-            text-align: center;
-            background: #ddd;
-            margin: 20px;
-            display: inline-block;
-        }
-    </style>
 </head>
 
 <body>
     <h1>Hello, Vue</h1>
     <div id="app">
+        <!-- ATTRIBUTE BINDING -->
         <div v-if="showBooks">
-            <h2>{{ title }} - {{ author }} - {{ age }}</h2>
+            <ul>
+                <li v-for="item in books">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.author }}</p>
+                </li>
+            </ul>
         </div>
-
-        <button class="btn btn-primary mr-1" @click="toggleShowBooks">
-            <span v-if="showBooks">Hide Books</span>
-            <span v-else>Show Books</span>
-            <!-- <span v-if="!showBooks">Show Books</span> -->
-            <!--<span v-if="showBooks == false">Show Books</span>-->
-        </button>
 
         <button class="btn btn-primary mr-1" @click="toggleShowBooks">
             {{ showBooks ? 'Sembunyikan' : 'Munculkan' }}
         </button>
         <div v-show="showBooks">Currently Showing Books</div>
 
-        <!-- MOUSE EVENTS -->
-        <div class="box" @mouseover="handleEvent($event, 5)">Mouseover (enter)</div>
-        <div class="box" @mouseleave="handleEvent">mouseleave</div>
-        <div class="box" @dblclick="handleEvent">doubleclick</div>
-        <div class="box" @click="handleEvent">click</div>
-        <div class="box" @mousemove="handleMouseMove">position {{ x }} - {{ y }}</div>
     </div>
 
     <script src="https://unpkg.com/vue@3.0.2"></script>
