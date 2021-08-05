@@ -4,6 +4,8 @@ const app = Vue.createApp({
       title: "Harry Potter",
       author: "J.K Rowling",
       age: 45,
+      text: "Hello, Vue",
+      rawHtml: "<span style='color:red'>Ini Warna Merah</span>",
     };
   },
   methods: {
