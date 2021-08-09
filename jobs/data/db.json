@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "title": "UX UI Designer",
+      "id": 1,
+      "details": "A UI, UX, and front-end web developer is responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience"
+    },
+    {
+      "title": "Backend Developer",
+      "id": 2,
+      "details": "A backend developer is one who makes use of the technology required to develop the products for the backend of any website"
+    },
+    {
+      "title": "Front End Developer",
+      "id": 3,
+      "details": "Image result for front end developer A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging"
+    }
+  ]
+}
