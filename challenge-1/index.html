@@ -53,7 +53,7 @@
         <!-- <a :href="url">Google</a> -->
         <div v-if="showBooks">
             <ul>
-                <li v-for="(item, index) in books" :key="index" :class="{ fav: item.isFav}"
+                <li v-for="(item, index) in filteredBooks" :key="index" :class="{ fav: item.isFav}"
                     @click="changeFav(item)">
                     <img :src="item.img" :alt="item.title">
                     <h3>{{ item.title }} - {{ reverseTitle }}</h3>

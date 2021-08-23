@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur quis quasi voluptates earum distinctio, praesentium magni sunt modi, illum quod nostrum dignissimos ut, soluta officiis ipsum eligendi asperiores iure velit perspiciatis ab. Ad distinctio autem facere sit ea. Vitae explicabo recusandae harum voluptatibus odio porro iure quod labore, commodi sunt illum ullam velit repudiandae et exercitationem nesciunt eveniet asperiores consequatur officiis animi corrupti sit! Atque, quis? Commodi magnam dolores ratione et ad cumque aliquam quas iste doloribus alias dolore illo, natus ipsam corporis tempora provident vero eaque officiis omnis fugiat eveniet nobis perspiciatis nam impedit. Atque labore cum minus enim, magnam officia consectetur explicabo totam adipisci. Eveniet veritatis similique recusandae exercitationem quo doloribus vel veniam perspiciatis modi accusantium aut blanditiis numquam quas velit eligendi iste fugiat aperiam, corporis sunt repellendus repellat incidunt molestias! Natus quasi laboriosam suscipit nesciunt possimus aperiam delectus, consequatur nulla rerum ipsam quia, quidem at ut consequuntur adipisci dolor sed, ab atque et? Fugit consequatur vitae, ullam asperiores ut beatae natus corrupti vero vel ea dolorum aliquam et dolore. Distinctio a optio eius assumenda laudantium aspernatur animi, asperiores adipisci illum ex porro perspiciatis modi voluptatibus dolor tempora esse exercitationem culpa nemo neque fugiat aliquam. Sint, similique.",
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 css tips",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur quis quasi voluptates earum distinctio, praesentium magni sunt modi, illum quod nostrum dignissimos ut, soluta officiis ipsum eligendi asperiores iure velit perspiciatis ab. Ad distinctio autem facere sit ea. Vitae explicabo recusandae harum voluptatibus odio porro iure quod labore, commodi sunt illum ullam velit repudiandae et exercitationem nesciunt eveniet asperiores consequatur officiis animi corrupti sit! Atque, quis? Commodi magnam dolores ratione et ad cumque aliquam quas iste doloribus alias dolore illo, natus ipsam corporis tempora provident vero eaque officiis omnis fugiat eveniet nobis perspiciatis nam impedit. Atque labore cum minus enim, magnam officia consectetur explicabo totam adipisci. Eveniet veritatis similique recusandae exercitationem quo doloribus vel veniam perspiciatis modi accusantium aut blanditiis numquam quas velit eligendi iste fugiat aperiam, corporis sunt repellendus repellat incidunt molestias! Natus quasi laboriosam suscipit nesciunt possimus aperiam delectus, consequatur nulla rerum ipsam quia, quidem at ut consequuntur adipisci dolor sed, ab atque et? Fugit consequatur vitae, ullam asperiores ut beatae natus corrupti vero vel ea dolorum aliquam et dolore. Distinctio a optio eius assumenda laudantium aspernatur animi, asperiores adipisci illum ex porro perspiciatis modi voluptatibus dolor tempora esse exercitationem culpa nemo neque fugiat aliquam. Sint, similique.",
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "coabacoabcaobc",
+      "body": "awofiawoifjoafw",
+      "tags": [
+        "html",
+        "css",
+        "webdev"
+      ],
+      "id": 3
+    },
+    {
+      "title": "simple simple",
+      "body": "simple dimple",
+      "tags": [
+        "html",
+        "css",
+        "news"
+      ],
+      "id": 4
+    },
+    {
+      "title": "coba aja ini mah",
+      "body": "body body",
+      "tags": [
+        "coba",
+        "aja"
+      ],
+      "id": 5
+    }
+  ]
+}

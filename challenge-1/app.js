@@ -14,7 +14,7 @@ const app = Vue.createApp({
           title: "Sang Pemimpi",
           author: "Andrea Hirata",
           img: "assets/2.jpg",
-          isFav: false,
+          isFav: true,
         },
         {
           title: "Filosofi Kopi",
